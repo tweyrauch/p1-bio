@@ -7,5 +7,43 @@
 }*/
 
 body{
-	background: orange;
+  background: #BED8FF;
+}
+
+.container{
+   background-color: #FFE9BE;
+}
+
+.header{
+  background: #738CB2;
+  color: #FFE9BE;
+  height: 75px;
+  line-height:75px;
+  padding:0 10px;
+  font-family: 'Petit Formal Script', cursive;
+  position:relative;
+}
+
+.content{
+  padding:5px 10px;
+  
+}
+
+.snowflake{
+  position:absolute;
+  font-size:120px;
+  color: rgba(255, 233, 190, .20)
+}
+
+h2{
+  color:#738CB2;
+  font-family: 'Merienda', cursive;
+}
+
+p{
+  font-family: 'ABeeZee', sans-serif;
+}
+
+img{
+  border:3px solid #738CB2;
 }
