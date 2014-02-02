@@ -10,8 +10,14 @@ body{
   background: #BED8FF;
 }
 
-.container, .content{
+
+ .content{
    background-color: #FFE9BE;
+   margin-bottom: 0;
+  box-shadow: 0 5px 50px  #738CB2;
+   padding:15px 30px 0 30px;
+  box-sizing:border-box;
+  	position: relative;
 }
 
 .header{
@@ -26,21 +32,24 @@ body{
   font-size: 25px;
 }
 
-.content{
-  padding:15px 30px;
-  box-sizing:border-box;
-}
-
 .snowflake{
   position:absolute;
   font-size:120px;
   left:30px;
-  color: rgba(255, 233, 190, .20)
+  color: rgba(255, 233, 190, .5)
 }
 
 .left{
 	padding-right:20px;
 	border-right: 1px dashed #BED8FF;
+}
+
+.flake2{
+  position:absolute;
+  font-size:250px;
+  color: rgba(115, 140, 178, .20);
+  bottom:0;
+  right:20px;
 }
 
 h1{
@@ -68,20 +77,43 @@ img{
   margin: 15px 30px;
   }
 
-a:link, a:visited{
+
+a.intext:link, a.intext:visited{
 	text-decoration: none;
 	color:#738CB2;
 }
 
-a:focus{
+a.intext:focus{
  border:2px dashed #BED8FF;
 }
 
-a:hover{
+a.intext:hover{
    color: #BED8FF;
 }
 
-a:active{
+a.intext:active{
 	color:#FFE9BE;
 	background: #738CB2;
 }
+
+a.additional:link, a.additional:visited{
+ 	display: block;
+ 	margin: 5px;
+ 	padding:5px;
+ 	color:#FFE9BE;
+ 	background: #738CB2;
+ 	border-radius: 5px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	width: 200px;
+ 	font-family: 'Merienda', cursive;
+ }
+
+a.additional:focus{
+ border:2px dashed #BED8FF;
+}
+
+ a.additional:hover, a.additional:active{
+ 	background:  #BED8FF;
+ 	color: #738CB2;
+ }
