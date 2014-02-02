@@ -10,29 +10,41 @@ body{
   background: #BED8FF;
 }
 
-.container{
+.container, .content{
    background-color: #FFE9BE;
 }
 
 .header{
   background: #738CB2;
   color: #FFE9BE;
-  height: 75px;
-  line-height:75px;
-  padding:0 20px;
+  height: 125px;
+  line-height:125px;
+  padding:0 30px;
   font-family: 'Petit Formal Script', cursive;
   position:relative;
+  margin:0;
+  font-size: 25px;
 }
 
 .content{
-  padding:5px 20px;
-  
+  padding:15px 30px;
+  box-sizing:border-box;
 }
 
 .snowflake{
   position:absolute;
   font-size:120px;
+  left:30px;
   color: rgba(255, 233, 190, .20)
+}
+
+.left{
+	padding-right:20px;
+	border-right: 1px dashed #BED8FF;
+}
+
+h1{
+	margin:0;
 }
 
 h2{
@@ -44,9 +56,32 @@ p{
   font-family: 'ABeeZee', sans-serif;
 }
 
+span{
+	color:#DC143C;
+}
+
 img{
   border:3px solid #738CB2;
-  float:right;
-  width: 150px;
-  border-radius:75px;
+  width: 250px;
+  border-radius:15px;
+  box-shadow:3px 3px 5px #BED8FF;
+  margin: 15px 30px;
+  }
+
+a:link, a:visited{
+	text-decoration: none;
+	color:#738CB2;
+}
+
+a:focus{
+ border:2px dashed #BED8FF;
+}
+
+a:hover{
+   color: #BED8FF;
+}
+
+a:active{
+	color:#FFE9BE;
+	background: #738CB2;
 }
